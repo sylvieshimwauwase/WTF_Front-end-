@@ -1,0 +1,54 @@
+.innerContainer {
+    max-width: 1200px;
+}
+
+.header {
+    background-color: gold;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-radius: 1px solid black;
+}
+
+.navLinkSection {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list > li {
+    list-style: none;
+    font-size: 10px;
+    font-family: Poppins;
+}
+
+.nav-list > li + li {
+    margin-left: 15px;
+}
+
+.signInButton {
+    border: none;
+    background-color: transparent;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.getStartedButton {
+    background-color: #2b2929f7;
+    border: 1px solid #2b2929f7;
+    border-radius: 50px;
+    color: #fff;
+    padding: 5px;
+    font-size: 10px;
+    cursor: pointer;
+}
+

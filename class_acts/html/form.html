@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Form</title>
+    </head>
+    <body>
+        <form class="myForm" method="post" action="">
+
+            <label for="food">Tell us your favotite food</label>
+            <input id="food" class="formField" placeholder="Favourite food"/>
+
+            <label for="recipe">Tell us the recipe
+            <textarea id="recipe" placeholder="Tell us the recipe" class="formField"></textarea>
+            </label>
+
+            <label for="proficiency"> How proficiency are you?</label>
+
+            <select name="proficiency" id="proficiency" class="formField">
+                <option value="10">legendary</option>
+                <option value="8">proficiency</option>
+                <option value="5">amateur</option>
+                <option value="0">i don't cook</option>
+            </select>
+
+            <label>Do you agree to not use too much meal
+            <input checked name="agreement" type="checkbox"/>
+            </label>
+
+            <fieldset>
+                <legend>Person</legend>
+                <label>
+                    Slv
+                    <input type="radio"/>
+                </label>
+
+                <label>
+                    Shimwa
+                    <input type="radio"/>
+                </label>
+
+                <label>
+                    uwase
+                    <input type="radio"/>
+                </label>
+
+            </fieldset>
+
+            <button class="submitBtn">Send</button>
+            </form>
+    </body>
+</html>

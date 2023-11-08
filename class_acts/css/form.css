@@ -1,0 +1,44 @@
+html {
+    font-size: 10px;
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 200px;
+    height: 50vh;
+    background-color: black;
+    transform: translateY(50%);
+    margin: auto;
+}
+
+.formField, .formField:focus, .formField:hover {
+    width: 100%;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    border-radius: 3px;
+    padding: 2px;
+    font-size: 8px;
+}
+
+.formField {
+    margin-bottom: 12px;
+}
+
+.submitBtn {
+    width: 100%;
+    border: none;
+    background-color: gold;
+    border-radius: 3px;
+    padding: 0.2rem;
+    font-size: 8px;
+    cursor: pointer;
+}
+
+.submitBtn:hover{
+    background-color: brown;
+}
