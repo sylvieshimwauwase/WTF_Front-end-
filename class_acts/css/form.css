@@ -7,10 +7,10 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: red;
     width: 200px;
     height: 50vh;
-    background-color: black;
+    background-color: #cccccc;
     transform: translateY(50%);
     margin: auto;
 }
@@ -32,7 +32,7 @@ html {
 .submitBtn {
     width: 100%;
     border: none;
-    background-color: gold;
+    background-color: g;
     border-radius: 3px;
     padding: 0.2rem;
     font-size: 8px;
