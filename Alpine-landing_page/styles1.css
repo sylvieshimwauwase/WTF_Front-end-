@@ -1,0 +1,104 @@
+.landing-page {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+.div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1280px;
+    height: 2674px;
+    position: relative;
+}
+
+.mian {
+    position: absolute;
+    width: 1180px;
+    height: 1786px;
+    top: 874px;
+    left: 65px;
+}
+
+.card1 {
+    position: absolute;
+    width: 289px;
+    height: 448px;
+    top: 192px;
+    left: 82px;
+    background-color: #f3f3f3;
+}
+
+.card2 {
+    position: absolute;
+    width: 289px;
+    height: 448px;
+    top: 192px;
+    left: 82px;
+    background-color: #f3f3f3;
+}
+
+.card3 {
+    position: absolute;
+    width: 289px;
+    height: 448px;
+    top: 192px;
+    left: 82px;
+    background-color: #f3f3f3;
+}
+
+.card4 {
+    position: absolute;
+    width: 289px;
+    height: 448px;
+    top: 192px;
+    left: 82px;
+    background-color: #f3f3f3;
+}
+
+.card5 {
+    position: absolute;
+    width: 289px;
+    height: 448px;
+    top: 192px;
+    left: 82px;
+    background-color: #f3f3f3;
+}
+
+.card6 {
+    position: absolute;
+    width: 289px;
+    height: 448px;
+    top: 192px;
+    left: 82px;
+    background-color: #f3f3f3;
+}
+
+.card7 {
+    position: absolute;
+    width: 289px;
+    height: 448px;
+    top: 192px;
+    left: 82px;
+    background-color: #f3f3f3;
+}
+
+.card8 {
+    position: absolute;
+    width: 289px;
+    height: 448px;
+    top: 192px;
+    left: 82px;
+    background-color: #f3f3f3;
+}
+
+.card9 {
+    position: absolute;
+    width: 289px;
+    height: 448px;
+    top: 192px;
+    left: 82px;
+    background-color: #f3f3f3;
+}

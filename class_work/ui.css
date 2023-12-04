@@ -1,0 +1,26 @@
+body {
+    font-family: 'Inter';
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 20px;
+}
+
+.fruits, .animals {
+    background-color: gold;
+}
+
+.fruits li, .animals li {
+    color: white;
+}
+
+.places {
+    background-color: grey;
+}
+
+.places li {
+    color: black;
+}

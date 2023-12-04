@@ -1,0 +1,64 @@
+.container > div {
+    background-color: red;
+    color: white;
+}
+
+.container > div:nth-child(even) {
+    background-color: blue;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "slv slv slv slv2"
+                            "slv slv slv slv2"
+                            "slv3 slv3 slv4 slv4";
+}
+
+.grid-item-one {
+    background-color: gold !important;
+    grid-area: slv;
+    /*grid-column-start: 1;
+    grid-column-end: 2;*/
+}
+
+.grid-item-two {
+    background-color: cyan !important;
+    grid-area: slv2;
+    /*grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;*/
+}
+
+.grid-item-three {
+    grid-area: slv3;
+    /*grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;*/
+}
+
+.grid-item-four {
+    grid-area: slv4;
+}
+
+.grid-item-five {
+    grid-area: slv5;
+}
+
+.grid-item-six {
+    grid-area: slv6;
+}
+
+.grid-item-seven {
+    grid-area: slv7;
+}
+
+.grid-item-eight {
+    grid-area: slv6;
+}
+
+.grid-item-nine {
+    grid-area: slv9;
+}
