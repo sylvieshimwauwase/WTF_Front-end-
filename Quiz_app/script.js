@@ -27,12 +27,12 @@ const questions = [
         ]
     },
     {
-        question: "Which tag is used for creating an unordered list in HTML?",
+        question: "What does the CSS property 'display: none;' do?",
         answers: [
-            { text: "<ol>", correct: false},
-            { text: "<li>", correct: false},
-            { text: "<ul>", correct: true},
-            { text: "<list>", correct: false},
+            { text: "Hide an element", correct: true},
+            { text: "Change the background color of an element", correct: false},
+            { text: "Increase the font size of an element", correct: false},
+            { text: "Rotate an element", correct: false},
         ]
     },
     {
@@ -63,12 +63,12 @@ const questions = [
         ]
     },
     {
-        question: "How do you include external stylesheets in HTML?",
+        question: "Which method is used to schedule a function to run at a specific time in JavaScript?",
         answers: [
-            { text: "<link rel="stylesheet" type="text/css" href="styles.css">", correct: true},
-            { text: "<style src="styles.css">", correct: false},
-            { text: "<link type="css" href="styles.css">", correct: false},
-            { text: "<style link="styles.css">", correct: false},
+            { text: "setInterval()", correct: false},
+            { text: "setTimeout()", correct: true},
+            { text: "setTime()", correct: false},
+            { text: "setIntervalTimeout()", correct: false},
         ]
     },
     {
@@ -81,12 +81,12 @@ const questions = [
         ]
     },
     {
-        question: "Which tag is used for creating a hyperlink in HTML?",
+        question: "What is the purpose of the 'alt' attribute in the HTML 'img' tag?",
         answers: [
-            { text: "<link>", correct: false},
-            { text: "<a>", correct: true},
-            { text: "<hlink>", correct: false},
-            { text: "<url>", correct: false},
+            { text: "Alternate text for the image", correct: true},
+            { text: "Align the image", correct: false},
+            { text: "Apply styles to the image", correct: false},
+            { text: "Add a link to the image", correct: false},
         ]
     }
 ];
