@@ -1,1 +1,3 @@
 this is the Project Work for December Break which is a web based quiz application using javascript to assess candidate's proficiency in javascript programming and front-end development
+In the development of my Simple Quiz application when a user clicks on incorrect question it turns red color and automatically checks for correct answer in green color then be prompted to go to next question 
+and when a user prompts to correct answer it turns green color and after go to next question until the questions are done 
