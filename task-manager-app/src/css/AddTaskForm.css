@@ -1,0 +1,23 @@
+.add-task-form {
+    margin-top: 20px;
+}
+
+.add-task-form input,
+.add-task-form button {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.add-task-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.add-task-form button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,14 @@
+.task-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: f9f9f9;
+}
+
+.task-item h3 {
+    margin-top: 0;
+}
+
+.task-item button {
+    margin-left: 10px;
+}
