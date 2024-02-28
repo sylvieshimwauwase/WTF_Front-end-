@@ -4,9 +4,9 @@ import AddTaskForm from "./components/AddTaskForm";
 
 const App = () => {
     const [tasks, setTasks] = useState([
-      { id: 1, name: "Task 1", description: "Description 1", duedate: "2021-08-01" },
-      { id: 2, name: "Task 2", description: "Description 2", duedate: "2021-08-02" },
-      { id: 3, name: "Task 3", description: "Description 3", duedate: "2021-08-03" },
+      { id: 1, name: "Database", description: "working on the database of the project", duedate: "2024-03-01" },
+      { id: 2, name: "Front-End", description: "working on front-end of the project", duedate: "2024-04-02" },
+      { id: 3, name: "Back-End", description: "working on backend of the project", duedate: "2021-04-24" },
     ]);
 
     const addTask = (newTask) => {

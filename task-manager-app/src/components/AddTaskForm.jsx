@@ -22,7 +22,7 @@ const AddTaskForm = (onAddTask) => {
 
     return (
         <div className="add-task-form">
-            <h2>Add Task</h2>
+            <h2>Add New Task</h2>
             <form onSubmit={handleSubmit}>
                 <input
                     type="text"
