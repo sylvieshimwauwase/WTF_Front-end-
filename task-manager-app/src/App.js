@@ -3,20 +3,36 @@ import TaskList from "./components/TaskList";
 import AddTaskForm from "./components/AddTaskForm";
 
 const App = () => {
-    const [tasks, setTasks] = useState([
-      { id: 1, name: "Database", description: "working on the database of the project", duedate: "2024-03-01" },
-      { id: 2, name: "Front-End", description: "working on front-end of the project", duedate: "2024-04-02" },
-      { id: 3, name: "Back-End", description: "working on backend of the project", duedate: "2021-04-24" },
-    ]);
+    const [tasks, setTasks] = useState([]);
+    const [showAddTAskForm, setShowAddTaskForm] = useState(false);
 
     const addTask = (newTask) => {
-        setTasks([...tasks, { id: Date.now(), ...newTask }]);
+        setTasks([...tasks, newTask]);
+        setShowAddTaskForm(false);
     };
 
     return (
-        <div>
+        <div className="app-container">
             <h1>Task Manager</h1>
-            <AddTaskForm onAddTask={addTask} />
+            <div>
+              <button onClick={() => setShowAddTaskForm(true)}>
+                Add new task
+              </button>
+            </div>
+            {showAddTAskForm && (
+              <div className="form-container">
+                <AddTaskForm onAddTask={addTask} />
+              </div>
+            )}
+
+            <div>
+              <button>All Tasks</button>
+              <button>Completed Tasks</button>
+              <button>Uncompleted Tasks</button>
+              <button>Due Today</button>
+              <button>Overdue Tasks</button>
+              <button>Deleted Tasks</button>
+            </div>
             <TaskList tasks={tasks} />
         </div>
     );

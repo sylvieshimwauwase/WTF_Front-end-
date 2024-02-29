@@ -1,20 +1,20 @@
 import React, { useState } from "react";
 import "../css/AddTaskForm.css";
 
-const AddTaskForm = (onAddTask) => {
+const AddTaskForm = (addTask) => {
     const [name, setName] = useState("");
     const [description, setDescription] = useState("");
     const [duedate, setDueDate] = useState("");
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        
+
         if (!name.trim() || !duedate.trim()) {
             alert("Please enter a name and due date for the task");
             return;
         }
 
-        onAddTask({ name, description, duedate });
+        addTask({ id: Date.now(), name, description, duedate, status: "inProgress" });
         setName("");
         setDescription("");
         setDueDate("");
